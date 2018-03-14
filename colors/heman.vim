@@ -175,8 +175,12 @@ call s:HL('SignColumn', s:heman.morchid)
 
 " Line used for closed folds
 call s:HL('Folded', s:heman.fg2, s:heman.lightblue)
+
 " Column where folds are displayed
 call s:HL('FoldColumn', s:heman.fg2, s:heman.darkblue)
+
+" Column guides
+call s:HL('ColorColumn', s:heman.fg1, s:heman.fg1)
 
 " }}}
 " Spell (GUI): {{{¬
